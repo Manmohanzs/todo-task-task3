@@ -7,7 +7,7 @@ OS_PREREQ
 Head "Installing Dependency"
 sudo apt install nginx -y &>>$LOG
 sudo apt-get install nodejs -y &>>$LOG
-sudo apt install node-node-sass &>>$LOG
+
 sudo apt install npm -y &>>$LOG
 Stat $?
 
