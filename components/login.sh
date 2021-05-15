@@ -9,7 +9,7 @@ Stat $?
 
 Head "Downloading Component"
 
-cd /
+cd /todo-task3
 rm -rf login
 git clone https://github.com/Manmohan506/login.git&>>$LOG && cd login
 
