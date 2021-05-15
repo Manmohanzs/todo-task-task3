@@ -9,7 +9,7 @@ sudo apt install npm -y &>>$LOG
 stat $?
 
 Head "Downloading COMPONENT"
-cd /root/
+cd /root/todo-task-task3
 git clone https://github.com/Manmohan506/todo.git &>>$LOG && cd todo && rm -rf /etc/systemd/system/todo.service && mv systemd.service /etc/systemd/system/todo.service
 sed -i -e "s/REDIS_ENDPOINT/redis.zsdevops01.site/" /etc/systemd/system/todo.service
 stat $?
