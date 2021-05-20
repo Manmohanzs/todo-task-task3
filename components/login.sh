@@ -11,7 +11,7 @@ Head "Downloading Component"
 
 cd /todo-task3
 rm -rf login
-git clone https://github.com/Manmohan506/login.git &>>$LOG && cd login
+git clone https://github.com/Manmohanzs/login.git &>>$LOG && cd login
 
 
 Head "Building Package"
